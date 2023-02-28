@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: pyjulia
@@ -6,12 +6,12 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/j/julia/julia-{{ version }}.tar.gz
-    sha256: ebe674265064ff5cdcd33dc0454f7894ca46e62aa36a848977fdf06ff5d092b0
+    sha256: dbada3b47cb14b3e1893dae8339053e014cf09f8158f408b6a129ca4dfca1f61
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -34,7 +34,7 @@ about:
   home: https://github.com/JuliaPy/pyjulia
   license: MIT
   license_file: LICENSE.md
-  summary: 'An interface to the Julia language from Python'
+  summary: An interface to the Julia language from Python
   doc_url: https://pyjulia.readthedocs.io/en/latest/
   dev_url: https://github.com/JuliaPy/pyjulia
 
