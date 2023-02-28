@@ -1,11 +1,11 @@
-About pyjulia
-=============
+About pyjulia-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyjulia-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/JuliaPy/pyjulia
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyjulia-feedstock/blob/main/LICENSE.txt)
 
 Summary: An interface to the Julia language from Python
 
