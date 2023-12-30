@@ -1,4 +1,4 @@
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: pyjulia
@@ -6,7 +6,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/j/julia/julia-{{ version }}.tar.gz
-    sha256: dbada3b47cb14b3e1893dae8339053e014cf09f8158f408b6a129ca4dfca1f61
+    sha256: 35eefc030671392b79ba0e1898b7103ed1286ad044783c4cadc99d4401c368e3
 
 build:
   noarch: python
